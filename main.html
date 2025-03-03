@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="main.css"> <!-- External CSS file -->
+</head>
+<body>
+
+    <!---------------------------------------------------- Navigation Bar -------------------------------------------------------------------->
+    <header>
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!----------------------------------- Home Section ------------------------------------------------------------------------------->
+    <section id="home" class="welcome-section">
+        <div class="video-background">
+            <video autoplay loop muted playsinline>
+                <source src="your-video.mp4" type="video/mp4">
+            </video>
+            <div class="video-overlay"></div>
+        </div>
+        <div class="intro-content">
+            <h1>Welcome to My Portfolio!</h1>
+            <p>This website showcases my journey, skills, and projects. Click around and explore!</p>
+        </div>
+    </section>
+
+    <!---------------------------------------------- About Section -------------------------------------------------------------------->
+    <section id="about" class="about-section">
+        <h2>About Me</h2>
+        <div class="road-container">
+            <div class="milestone fade-in show">
+                <div class="text">
+                    <h2>Hi, I'm Noah</h2>
+                    <p>
+                        I’m from Addis Ababa, the heart of Ethiopia, a country known for its ancient history and rich culture.
+                    </p>
+                    <p>
+                        From an early age, I was surrounded by the sounds, flavors, and vibrance of Ethiopian life, and these experiences shaped who I am today. Ethiopia has such a unique place in the world, and I’m proud to carry that heritage wherever I go.
+                    </p>
+                </div>
+            </div>
+    
+            <div class="milestone fade-in show">
+                <div class="text">
+                    <h2>Why I Love Ethiopia</h2>
+                    <p>
+                        Ethiopia is not just my birthplace; it's where my roots run deep. The sense of community, the pride in our history, and the love for our food and culture have all influenced the way I live today. 
+                        I’m proud of where I’m from and the incredible diversity of this beautiful country.
+                    </p>
+                </div>
+            </div>
+            
+            <!-- Optional: Add more milestones or sections with additional personal details -->
+        </div>
+    </section>
+    
+
+    <!-------------------------------------------------------------------- Projects Section -------------------------------------------------------------------->
+    <section id="projects" class="projects-page">
+        <h2>My Projects</h2>
+        <div class="project">
+            <h3>Data Analyst Project</h3>
+            <p>A description of this project goes here. What I did, technologies used, and impact.</p>
+        </div>
+        <div class="project">
+            <h3>Data Visualization Projects</h3>
+            <p>A description of this project goes here. What I did, technologies used, and impact.</p>
+        </div>
+        <div class="project">
+            <h3>Financial Accounting Project</h3>
+            <p>A description of this project goes here. What I did, technologies used, and impact.</p>
+        </div>
+        <div class="project">
+            <h3>Econometrics Project</h3>
+            <p>A description of this project goes here. What I did, technologies used, and impact.</p>
+        </div>
+    </section>
+
+    <!-------------------------------------------------- Experience Section --------------------------------------------------------->
+    <section id="experience" class="experience-section">
+        <h2>My Experience</h2>
+        <div class="experience-card">
+            <h3>Data Science Intern</h3>
+            <h4>Goodyear Tire Company</h4>
+            <p>Analyzed tire performance data and built dashboards to visualize wear trends. Developed predictive models, reducing repeated testing and optimizing maintenance strategies.</p>
+            <button class="expand-btn">Learn More</button>
+            <div class="expanded-details">
+                <p>Details about the experience go here.</p>
+            </div>
+        </div>
+
+        <div class="experience-card">
+            <h3>Resident Assistant</h3>
+            <h4>The College of Wooster</h4>
+            <p>Cultivated a welcoming environment for 43 residents, reducing policy violations through effective mentorship and support.</p>
+            <button class="expand-btn">Learn More</button>
+            <div class="expanded-details">
+                <p>Details about the experience go here.</p>
+            </div>
+        </div>
+    </section>
+
+    <!---------------------------------------------- Contact Section ------------------------------------------------------------------------------->
+    <section id="contact" class="contact-section">
+        <h2>Contact Me</h2>
+        <p>If you have any questions or just want to reach out, feel free to send a message below:</p>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <script src="main.js"></script> <!-- Link to your main JavaScript file -->
+
+</body>
+</html>
+
